@@ -1,0 +1,93 @@
+body {
+  padding: 50px;
+  background-color: rgba(17, 17, 17, 0.603);
+  font-family: sans-serif;
+}
+
+.navHeader {
+  background-color: rgba(165, 172, 151, 0.705);
+}
+
+.todoCategoryContainer {
+  background-color: aqua;
+  float: left;
+  margin-right: 10px;
+}
+
+.todoContainer {
+  display: flex;
+  background-color: rgb(32, 85, 85);
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todoContainer#categories {
+  background-color: rgb(29, 48, 48);
+  float: left;
+  margin-right: 10px;
+}
+
+.todoContainer .header {
+  background-color: #171f31;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todoContainer .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 10px;
+  background-color: #033785;
+  color: #fff;
+  border: 2px solid #0066ff;
+}
+
+.todoContainer button#delete {
+  float: right;
+  border: none;
+  background-color: rgba(220, 20, 60, 0);
+}
+.todoContainer button:hover#delete {
+  background-color: crimson;
+}
+
+.todoContainer .header button:hover {
+  background-color: #000000;
+  border: 2px solid #5d6575;
+  cursor: pointer;
+}
+
+.todoContainer .header input {
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  width: 50%;
+}
+
+.todoContainer ul {
+  width: inherit;
+  padding: 20px;
+}
+
+.todoContainer li {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.575);
+  padding: 10px;
+  padding-left: 20px;
+  margin: 10px;
+
+  border-radius: 20px;
+  list-style: none;
+  width: inherit;
+}
+
+.todoContainer li#selected {
+  color: rgb(82, 77, 77);
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+.todoContainer li:hover {
+  background-color: rgba(173, 170, 170, 0.877);
+}
